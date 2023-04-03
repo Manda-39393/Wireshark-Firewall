@@ -61,67 +61,44 @@ Brief tutorial on how to install and observe firewall.<br />
 <img src="https://i.imgur.com/Ag3CujO.png"80%" width="80%"/>
 </p>
 <p>
-7. Ping private address of Ubuntu VM and ping address in Windows
-<p>
-  
-<img src=https://i.imgur.com/rWaLDtN.png"" height="80%" width="80%"/>
-</p>
-<p>
+7. Ping private address of Ubuntu VM and ping address in Windows /
 8. In Wireshark put IMCP in the search area, observe traffic, and prepare to block chosen traffic.
 
 <p>
-<img src="https://imgur.com/a/pXNbiPt" height="80%" width="80%"/>
+<img src="https://i.imgur.com/YK7v4j9.png" height="80%" width="80%"/>
 </p>
 <p>
-9. Observe traffic. ***this is supposed to be the DHCP not DNS***
+10. Add security rule for IMCP traffic; deny, "anything."
+
+<p>
+<img src="https://i.imgur.com/Dx6QmE0.png" height="80%" width="80%"/>
+</p>
+<p>
+11. Observe the traffic, and what has been blocked due to the new rule. (Switch to DHCP traffic not, DNS)
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/bBy3X7X.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/mmolGPg.png" height="80%" width="80%"/>
 </p>
 <p>
-Assign permissions via properties, click on security and click advanced, disable inheritance.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/WZ2Crtf.png" height="80%" width="80%"/>
-</p>
-<p>
-
+12. Observe DHCP traffic, use ipconfig to find the ethernet information.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/T5pmnEE.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/HTnmtgc.png" height="80%" width="80%"/>
 </p>
 <p>
-Click and remove all ineherited permissions from the object, click set principal, enter "everyone" in display box, and click check.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/W6NC83u.png" height="80%" width="80%"/>
-</p>
-<p>
-
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/zcWMK05.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/yxr1j5W.png" height="80%" width="80%"/>
 </p>
 <p>
-Open Heidi SQL, click on unnamed and click create a new database, create database and rename to osTicket.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/6W2EnRG.png" height="80%" width="80%"/>
-</p>
-<p>
-Continue to enter in information in osTicket; successfully installed osTicket.
+13. Observe DNS traffic.
 </p>
 <br />
 
