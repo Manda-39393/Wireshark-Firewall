@@ -1,7 +1,8 @@
 # Wireshark-Firewall
-<p align="center">
-<img src="" alt="https://i.imgur.com/FfOEYxy.png" />
+<p>
+<img src="https://i.imgur.com/FfOEYxy.png" height="80%" width="80%"/>
 </p>
+<p>
 
 <h1>Wireshark  - Prerequisites and Installation</h1>
 Brief tutorial on how to install and observe firewall.<br />
